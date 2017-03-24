@@ -14,11 +14,12 @@ int main() {
         printf("create sockfd err\n");
         exit(1);
     }
+    printf("sockfd:%d\n", sockfd);
 
     struct sockaddr_in server;
     bzero(&server, sizeof(server));
     server.sin_family = AF_INET;
-    server.sin_port = htons(PORT);
+    server.sin_port = PORT;
     server.sin_addr.s_addr = htonl(INADDR_ANY);
 
     int ret = bind(sockfd, (struct sockaddr *)&server, sizeof(server));
@@ -42,7 +43,7 @@ int main() {
     }
     printf("accept ok\n");
 
-    sleep(30);
+    sleep(500);
 
     return 0;
 }
