@@ -9,6 +9,8 @@
 3.client set so_linger on timeout 0, then send some msg, but server not recv, then client send close-->client's and server's state is established until client send close, when client send close, the queue is clean, the client send reset, then return, so that no state.
 
 4.client set so_linger on timeout 0, then send msg until the sendqueue not change, meanwhile server don't recv too, then client send close-->the result is same to case3.
+
+
 netstat -tpn 
 observe the state
 
