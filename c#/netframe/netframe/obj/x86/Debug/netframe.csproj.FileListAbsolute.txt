@@ -1,0 +1,4 @@
+D:\vs2010\project\netframe\netframe\bin\Debug\netframe.exe
+D:\vs2010\project\netframe\netframe\bin\Debug\netframe.pdb
+D:\vs2010\project\netframe\netframe\obj\x86\Debug\netframe.exe
+D:\vs2010\project\netframe\netframe\obj\x86\Debug\netframe.pdb

@@ -1,0 +1,4 @@
+D:\vs2010\project\AsyncClient\AsyncClient\bin\Debug\AsyncClient.exe
+D:\vs2010\project\AsyncClient\AsyncClient\bin\Debug\AsyncClient.pdb
+D:\vs2010\project\AsyncClient\AsyncClient\obj\x86\Debug\AsyncClient.exe
+D:\vs2010\project\AsyncClient\AsyncClient\obj\x86\Debug\AsyncClient.pdb
